@@ -1,0 +1,99 @@
+{% extends 'restaurant/restaurant-base.html' %}
+{% block body_block %}
+{% load static %}
+
+
+<!-- ##BODY -->
+
+<div id="sec-one" class="container-fluid col-lg-12 sec">
+  <h2 class="white-font">Site Under Construction</h2>
+  <h1 class="white-font">Welcome to Our Bakery</h1>
+  <h3 class="white-font">This is a work in progress.  Backend and Frontend Elements Being Created</h3>
+</div>
+
+
+</div>
+
+
+<div id="sec-two" class="container-fluid row sec">
+  <div class="container col-md-6">
+    <h1>Our Story</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="container col-md-6">
+    <img class="card-img-top" src="{% static "images/restaurant/item-one.jpg" %}">
+  </div>
+</div>
+<div id="sec-three-background">
+  <div id="sec-three" class="container-fluid row mainpage-secthree-container">
+      <div class="container d-flex justify-content-center col-lg-12">
+        <h1 class="white-font">Menu</h1>
+      </div>
+              <div class="card mainpage-card container col-md-4">
+                <img class="card-img-top" src="{% static "images/restaurant/item-one.jpg" %}">
+              </div>
+              <div class="card container col-md-4 mainpage-card">
+                <img class="card-img-top" src="{% static "images/restaurant/item-two.jpg" %}">
+            </div>
+                  <div class="card container col-md-4 mainpage-card">
+                    <img class="card-img-top" src="{% static "images/restaurant/item-three.jpg" %}">
+                  </div>
+                  <div class="card mainpage-card container col-md-4">
+                    <img class="card-img-top" src="{% static "images/restaurant/item-four.jpg" %}">
+                  </div>
+                  <div class="card mainpage-card container col-md-4">
+                    <img class="card-img-top" src="{% static "images/restaurant/item-five.jpg" %}">
+                  </div>
+                  <div class="card mainpage-card container col-md-4">
+                    <img class="card-img-top" src="{% static "images/restaurant/item-six.jpg" %}">
+                  </div>
+                  <div class="card mainpage-card container col-md-4">
+                    <img class="card-img-top" src="{% static "images/restaurant/item-seven.jpg" %}">
+                  </div>
+                  <div class="card mainpage-card container col-md-4">
+                    <img class="card-img-top" src="{% static "images/restaurant/item-four.jpg" %}">
+                  </div>
+    </div>
+</div>
+    <div id="sec-four" class="container-fluid row sec">
+      <div class="container col-lg-12">
+        <h1>Hours</h1>
+      </div>
+      <div class="container col-md-6">
+        <h2>Friday to Saturday</h2>
+        <h3>11:00 to 22:00</h3>
+      </div>
+      <div class="container col-md-6">
+        <h2>Sunday to Thursday</h2>
+        <h3>11:00 to 20:00</h3>
+      </div>
+    </div>
+    <div id="sec-five-background">
+            <div id="sec-five" class="container-fluid row sec">
+              <div class="container col-lg-12">
+                <h1 class="white-font">Contact</h1>
+              </div>
+              <div class="container col-md-6">
+                <h3 class="white-font">Phone: (123) 456-7890</h3>
+                <h3 class="white-font">Address: 123 Food Lane, Bakersfield, CA</h3>
+                {% block content %}
+                {% endblock %}
+              </div>
+              <div class="container row col-lg-12">
+
+              </div>
+            </div>
+      </div>
+      <div id="sec-six" class="row container-fluid">
+          <div class="container col-lg-6">
+            <h3 class="white-font">2020 Oshiro-Codes.com</h3>
+            <h3 class="white-font">Bakery Template.  A Django Project</h3>
+          </div>
+          <div class="container col-lg-6">
+            <h3 class="white-font">Phone: (123) 456-7890</h3>
+            <h3 class="white-font">Address: 123 Food Lane, Bakersfield, CA</h3>
+          </div>
+      </div>
+
+
+{% endblock %}
